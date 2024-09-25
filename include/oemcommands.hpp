@@ -28,7 +28,7 @@ constexpr uint8_t netFnAPP = 0x30;
 } // namespace rick
 namespace app
 {
-constexpr constexpr Cmd cmdGetTemp275 = 0x01;
-constexpr constexpr Cmd cmdSetThreshold = 0x02;
+constexpr Cmd cmdGetTemp275 = 0x01;
+constexpr Cmd cmdSetThreshold = 0x02;
 } // namespace app
 } // namespace ipmi
